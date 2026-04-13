@@ -1,6 +1,7 @@
 import express from "express"
 import productRoutes from "./routes/productRoutes.js"
 import categoryRoutes from './routes/categoryRoutes.js'
+import authRoutes from "./routes/authRoutes.js"
 import logger from "./config/logger.js"
 
 const app = express()
@@ -9,6 +10,7 @@ app.use(express.json())
 
 app.use("/api/product", productRoutes)
 app.use("/api/categories", categoryRoutes)
+app.use("/api/auth", authRoutes);
 
 // Exception Handling Middleware
 app.use((err, req, res, next) => {
