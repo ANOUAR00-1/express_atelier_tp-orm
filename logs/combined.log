@@ -1,0 +1,21 @@
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:38:29.691Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:38:29.700Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:39:13.254Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:39:13.264Z"}
+{"level":"info","message":"Product added: prod 8","timestamp":"2026-04-13T11:39:31.754Z"}
+{"level":"info","message":"POST /products - Product Created: prod 8 (ID: 9)","timestamp":"2026-04-13T11:39:31.755Z"}
+{"level":"info","message":"GET /products - Found 1 products (Total: 8)","timestamp":"2026-04-13T11:39:37.530Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:40:55.269Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:40:55.283Z"}
+{"level":"info","message":"Product added: prod 8","timestamp":"2026-04-13T11:41:07.072Z"}
+{"level":"info","message":"POST /products - Product Created: prod 8 (ID: 10)","timestamp":"2026-04-13T11:41:07.072Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:42:05.237Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:42:05.252Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:45:58.236Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:45:58.245Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:46:24.451Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:46:24.460Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-04-13T11:48:39.147Z"}
+{"level":"info","message":"Server Running on port 3001","timestamp":"2026-04-13T11:48:39.158Z"}
+{"level":"error","message":"GET /products - Error: AggregateError","timestamp":"2026-04-13T11:49:32.669Z"}
+{"level":"info","message":"GET /products - Found 1 products (Total: 9)","timestamp":"2026-04-13T11:49:54.855Z"}

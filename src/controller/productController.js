@@ -26,7 +26,7 @@ export const getProducts = async (req, res) => {
    lastPage: Math.ceil(total / limit),
   });
  } catch (error) {
-  logger.error(`GET /products - Error: ${error.message}`);
+  logger.error(`GET /products - Error: ${error}`);
   res.status(500).json({
    message: "Error fetching products",
    error: error.message,
@@ -58,6 +58,9 @@ export const addProduct = async (req, res) => {
     message: "Stock must be >= 0",
    });
   }
+
+  
+
 
   const repo = AppDataSource.getRepository("Product");
 
