@@ -1,14 +1,17 @@
 import app from "./src/app.js"
 import { AppDataSource } from "./src/config/data-source.js"
 import dotenv from "dotenv"
+import logger from "./src/config/logger.js";
 
 dotenv.config()
 
 AppDataSource.initialize()
-    .then(() => {
-     console.log("Database connected")
-     app.listen(process.env.PORT, () => {
-        console.log(`Server Running on port ${process.env.PORT}`)
-     }) 
-    })
-    .catch((error) => console.log(error))
+   .then(() => {
+      logger.info("Database connected successfully");
+      app.listen(process.env.PORT, () => {
+         logger.info(`Server Running on port ${process.env.PORT}`)
+      })
+   })
+   .catch((error) => {
+      logger.error(`Error connecting to database: ${error}`);
+   })
